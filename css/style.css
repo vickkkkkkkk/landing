@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap")
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/banner2.css");
+@import url("components/card.css");
+
+body {
+	font-family: "Lora", serif;
+	font-size : 20px;
+
+}
+
+h1, h2 , h3 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table th, .pricing-table td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.pricing-table th {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.pricing-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Animation douce pour les cartes */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; /* Change le curseur en main pour montrer que c'est cliquable */
+}
+
+/* Effet quand la souris passe dessus */
+.card:hover {
+  transform: translateY(-10px); /* Soulève la carte de 10 pixels */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2); /* Ajoute une ombre plus profonde */
+}
+
+/* Optionnel : zoomer légèrement l'image à l'intérieur */
+.card:hover img {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+
+h1 {text-align: center;
+
+
+
+	
+}
